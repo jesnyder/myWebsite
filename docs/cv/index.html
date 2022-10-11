@@ -6,110 +6,119 @@
     <link rel="stylesheet" href="../styles.css">
     <style>
 
-      body {background-color: white;}
-      h1   {color: black;}
-      p    {color: gray;}
 
-* {
-/* Here i made the margin and padding  0 */
-margin: 0;
+                    body {background-color: white;}
+                    h1   {color: blue;}
+                    p    {color: gray;}
 
-padding: 0;
-}
+      * {
+    /* Here i made the margin and padding  0 */
+    margin: 0;
 
-.navbar {
-display: flex;
+    padding: 0;
+    }
 
-/* This is used to make the navbar sticky, So that the
-navbar stays at the top part even if we scroll */
-position: sticky;
-align-items: center;
-justify-content: center;
-top: 5px;
+    .navbar {
+    display: flex;
 
-/*it specifies the mouse cursor to be displayed
-when it is pointed over the element */
-cursor: pointer;
-}
+    /* This is used to make the navbar sticky, So that the
+    navbar stays at the top part even if we scroll */
+    position: sticky;
+    align-items: center;
+    justify-content: center;
+    top: 5px;
 
-.nav-list {
-width: 40%;
-display: flex;
-}
+    /*it specifies the mouse cursor to be displayed
+    when it is pointed over the element */
+    cursor: pointer;
+    }
 
-.nav-list li {
-list-style: none;
-padding: 15px 15px 15px 15px;
-}
+    .nav-list {
+    width: 50%;
+    display: flex;
+    }
 
-.nav-list li a {
-text-decoration: none;
-color: white;
-font-size: 18px;
-}
+    .nav-list li {
+    list-style: none;
+    padding: 15px 15px 15px 15px;
+    }
 
-.nav-list li a:hover {
-color: black;
-}
+    .nav-list li a {
+    text-decoration: none;
+    font: fantasy;
+    color: white;
+    font-size: 18px;
+    }
 
-.rightNav {
-width: 40%;
-text-align: center;
-}
+    .nav-list li a:hover {
+    color: yellow;
+    }
 
-#search {
-padding: 5px;
-font-size: 18px;
-border: 2px solid grey;
-border-radius: 15px;
-}
+    .rightNav {
+    width: 40%;
+    text-align: center;
+    }
 
-.background {
-background: rgba(0, 0, 0, 1) url(
-"https://media.geeksforgeeks.org/wp-content/uploads/20201215124609/Capture-300x14.PNG");
-background-blend-mode: darken;
-background-size: cover;
-}
+    #search {
+    padding: 5px;
+    font-size: 18px;
+    border: 2px solid grey;
+    border-radius: 15px;
+    }
 
-#my-list {
-    padding-left: 50px;
-    padding: 10px;
-}
-
-
-li {
-  padding-left: 10px;
-  margin-bottom: 10px;
-  color: gray;
-  text-indent: 0em;
-  margin-left: 2em;
-}
+    .background {
+    background: rgba(0, 0, 0, 1) url(
+    "https://media.geeksforgeeks.org/wp-content/uploads/20201215124609/Capture-300x14.PNG");
+    background-blend-mode: darken;
+    background-size: cover;
+    }
 
 
 
-</style>
-  </head>
+    #my-list {
+        padding-left: 50px;
+        padding: 10px;
+    }
 
 
-  <body>
+    li {
+      padding-left: 10px;
+      margin-bottom: 10px;
+      color: gray;
+      text-indent: 0em;
+      margin-left: 2em;
+    }
 
-    <nav class="navbar background">
-        <!-- we have used list tag that is ul
-             to list the items-->
-        <ul class="nav-list">
-            <li><a href="../index.html">Home</a></li>
-            <li><a href="../about/">About</a></li>
-            <li><a href="../projects/">Projects</a></li>
-            <li><a href="">CV</a></li>
-        </ul>
-        <!-- we have used rightnav in order to design
-             the seachbar properly by using CSS-->
-        <div class="rightNav">
-      <!-- the value that search bar will take is text -->
-            <input type="text" name="search" id="search" />
-            <button class="btn btn-sm">Search</button>
-        </div>
-    </nav>
+    a {
+            color: #B695C0;
+          }
+
+
+    </style>
+          </head>
+
+        <body>
+            <!-- here in nav tag i have used two classes
+                 that is navbar and background-->
+            <!-- each class declared in nav tag will be
+                 used to design the form using CSS-->
+            <nav class="navbar background">
+                <!-- we have used list tag that is ul
+                     to list the items-->
+                <ul class="nav-list">
+                    <li><a href="index.html">J.E. Snyder</a></li>
+                    <li><a href="about/">About</a></li>
+                    <li><a href="projects/">Projects</a></li>
+                    <li><a href="cv/">CV</a></li>
+                </ul>
+                <!-- we have used rightnav in order to design
+                     the seachbar properly by using CSS-->
+                <div class="rightNav">
+              <!-- the value that search bar will take is text -->
+                    <input type="text" name="search" id="search" />
+                    <button class="btn btn-sm">Search</button>
+                </div>
+            </nav>
 
 
     <div id="text" style="width:80% ; margin-left: 3%; font-family:Fantasy">
@@ -154,16 +163,11 @@ li {
   the anatomical, multi-cell type structure of hepatic tissue. In collaboration with NASA Johnson
   Space Center, we used the 3D-printed model to measure drug toxicity in space-like environments.
   To build as much as grow biotechnology for human missions to space.
-  </p>
 
-  <br><br>Department of Defense, Defense Intelligence Agency ,
-  <a href="https://research.coe.drexel.edu/mem/bfl/" target="_blank">Biofabrication Lab</a>
-  <br>Research Fellow / PhD Candidate (2009-2014)
-  <br>Developed manufacturing processes to build a
-  model of human liver for space ight medicine. Used scaold-guided tissue engineering to reproduce
-  the anatomical, multi-cell type structure of hepatic tissue. In collaboration with NASA Johnson
-  Space Center, we used the 3D-printed model to measure drug toxicity in space-like environments.
-  To build as much as grow biotechnology for human missions to space.
+
+  <br><br>Department of Defense, Defense Intelligence Agency
+  <br>Analyst
+  <br>
   </p>
 
   <h3> <br>Inventions </h3>
