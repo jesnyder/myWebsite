@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MSC Clinical Trials</title>
+
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+
+      body {background-color: white;}
+      h1   {color: black;}
+      p    {color: gray;}
+
+* {
+/* Here i made the margin and padding  0 */
+margin: 0;
+
+padding: 0;
+}
+
+.navbar {
+display: flex;
+
+/* This is used to make the navbar sticky, So that the
+navbar stays at the top part even if we scroll */
+position: sticky;
+align-items: center;
+justify-content: center;
+top: 5px;
+
+/*it specifies the mouse cursor to be displayed
+when it is pointed over the element */
+cursor: pointer;
+}
+
+.nav-list {
+width: 40%;
+display: flex;
+}
+
+.nav-list li {
+list-style: none;
+padding: 15px 15px 15px 15px;
+}
+
+.nav-list li a {
+text-decoration: none;
+color: white;
+font-size: 18px;
+}
+
+.nav-list li a:hover {
+color: black;
+}
+
+.rightNav {
+width: 40%;
+text-align: center;
+}
+
+#search {
+padding: 5px;
+font-size: 18px;
+border: 2px solid grey;
+border-radius: 15px;
+}
+
+.background {
+background: rgba(0, 0, 0, 1) url(
+"https://media.geeksforgeeks.org/wp-content/uploads/20201215124609/Capture-300x14.PNG");
+background-blend-mode: darken;
+background-size: cover;
+}
+
+#my-list {
+    padding-left: 50px;
+    padding: 10px;
+}
+
+
+li {
+  padding-left: 10px;
+  margin-bottom: 10px;
+  color: gray;
+  text-indent: 0em;
+  margin-left: 2em;
+}
+
+
+
+</style>
+  </head>
+
+
+  <body>
+
+    <nav class="navbar background">
+        <!-- we have used list tag that is ul
+             to list the items-->
+        <ul class="nav-list">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../about/">About</a></li>
+            <li><a href="../projects/">Projects</a></li>
+            <li><a href="">CV</a></li>
+        </ul>
+        <!-- we have used rightnav in order to design
+             the seachbar properly by using CSS-->
+        <div class="rightNav">
+      <!-- the value that search bar will take is text -->
+            <input type="text" name="search" id="search" />
+            <button class="btn btn-sm">Search</button>
+        </div>
+    </nav>
+
+
+    <div id="text" style="width:80% ; margin-left: 3%; font-family:Fantasy">
+
+    <h2> <br> Jessica E. Snyder, PhD </h2>
+
+    <h3> <br> Objective </h3>
+    <p>Engineer and explorer seeking an ambitious team to build, as much as evolve, biological industrial design.</p>
+
+  <h3> <br> Work Experience </h3>
+  <p>
+  <br>
+  <a href="https://www.roosterbio.com/" target="_blank">RoosterBio</a>
+  <br>Bioprocessing Application Scientist (2021-present)
+  <br>Accelerate human mesenchymal stromal cell product and process development. Collaborate with academics and industry to leverage a well-dened cellular therapy product line for scalable regenerative medicine cures.
+
+  <br><br>
+  <a href="https://www.usra.edu/" target="_blank">Universities Space Research Association</a>
+  , contracted to
+  <a href="https://www.nasa.gov/ames/" target="_blank">NASA Ames Research Center</a>
+
+  <br>Scientist + Synthetic Biology Task Lead (2017-2020)
+  <br>Biological industrial design to outt
+  human missions to space. Built biotechnology alongside evolutionary and synthetic biologists to
+  reverse engineer life from extreme environments. Projects included: Digitizing a sea sponge to
+  3D-print a living lter; a portable device to make protein-based drugs; and eld work in Antarctica.
+
+  <br><br>Massachusetts Institute of Technology,
+  <a href="https://senseable.mit.edu/" target="_blank">Senseable City Lab</a>
+  <br>Postdoctoral Fellow (2015-2017)
+  <br>A partially anonymized public health census using biology, data,
+  and civic infrastructure. As part of the Underworlds team, I automated wastewater sampling to
+  measure the bacteria, virus, and chemicals in dierent neighborhoods. Our geolocated dataset
+  became a heatmap of human health and consumption. Instances of the technology were deployed in
+  Boston and Kuwait. The project has become the company BioBot Analytics.
+
+  <br><br>Drexel University, Mechanical Engineering Department,
+  <a href="https://research.coe.drexel.edu/mem/bfl/" target="_blank">Biofabrication Lab</a>
+  <br>Research Fellow / PhD Candidate (2009-2014)
+  <br>Developed manufacturing processes to build a
+  model of human liver for space ight medicine. Used scaold-guided tissue engineering to reproduce
+  the anatomical, multi-cell type structure of hepatic tissue. In collaboration with NASA Johnson
+  Space Center, we used the 3D-printed model to measure drug toxicity in space-like environments.
+  To build as much as grow biotechnology for human missions to space.
+  </p>
+
+  <br><br>Department of Defense, Defense Intelligence Agency ,
+  <a href="https://research.coe.drexel.edu/mem/bfl/" target="_blank">Biofabrication Lab</a>
+  <br>Research Fellow / PhD Candidate (2009-2014)
+  <br>Developed manufacturing processes to build a
+  model of human liver for space ight medicine. Used scaold-guided tissue engineering to reproduce
+  the anatomical, multi-cell type structure of hepatic tissue. In collaboration with NASA Johnson
+  Space Center, we used the 3D-printed model to measure drug toxicity in space-like environments.
+  To build as much as grow biotechnology for human missions to space.
+  </p>
+
+  <h3> <br>Inventions </h3>
+  <ol id="my-list">
+    <li>Heterogeneous laments, methods of producing the same, scaolds, methods of producing the same, droplets, ... Sun, Wei, Qudus Hamid, and Jessica Snyder. WO/2017/019300 (2017)
+      <br>
+      <a href="https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2017019300" target="_blank">https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2017019300</a>
+
+    <li>Compositions and Methods for Functionalized Patterning of Tissue Engineering Substrates Including Bioprinting Cell-Laden Constructs for Multicompartment Tissue Chambers. Sun, Wei, Jessica Snyder, Robert Chang, Eda Yildirim, Alexander Fridman, and Halim Ayan. U.S. Patent 12 872,992 (2011)
+      <br>
+      <a href="https://www.freepatentsonline.com/y2011/0136162.html" target="_blank">https://www.freepatentsonline.com/y2011/0136162.html</a>
+  </ol>
+</p>
+
+<h3> <br>Service</h3>
+Monteore Health System, New York City
+Collaborator (2016-present)
+<br>Joined a clinical trial of virtual reality as a non-pharmacological pain
+management strategy. We collect physiological feedback using wearables to tailor-make immersive entertainment experiences that hold promise for guiding pediatric patients towards calmer emotional states, potentially reducing opiate prescriptions to pediatric pateints during rehabilitation.
+
+<h3> <br>Funded Grants - Current Support</h3>
+<ol id="my-list">
+  <li>Mycotecture Off Planet. NASA Innovative Advanced Concepts (NIAC) Phase II 2021. Lynn J. Rothschild, Christopher Maurer, Debbie Senesky, Ivan Gláucio Paulino Lima, Jim Head, Jessica Snyder, Maikel Rheinstadter, Martyn Dade-Robertson. $250k / 2 years
+
+  <br>Funding Announcement:
+  <a href="https://www.nasa.gov/directorates/spacetech/niac/2021_Phase_I/Mycotecture_Off_Planet/" target="_blank">https://www.nasa.gov/directorates/spacetech/niac/2021_Phase_I/Mycotecture_Off_Planet/</a>
+
+  <br>Progress:
+  <a href="https://ntrs.nasa.gov/citations/20210026908" target="_blank">https://ntrs.nasa.gov/citations/20210026908</a>
+
+  <li>An Astropharmacy. NASA Innovative Advanced Concepts (NIAC) Phase I 2020. Lynn J. Rothschild (PI), Kate Adamala, David Loftus, Mike Jewett, Jessica Snyder, Ivan Gláucio Paulino Lima, Hans-Joachim Wieden. $125k / 9 months - extended due to pandemic-related closures
+    <br>Funding Announcement:
+    <a href="https://www.nasa.gov/directorates/spacetech/niac/2020_Phase_I_Phase_II/Astropharmacy/" target="_blank">https://www.nasa.gov/directorates/spacetech/niac/2020_Phase_I_Phase_II/Astropharmacy/</a>
+</ol>
+</p>
+
+
+<h3> <br> Scopus Metrics Overview </h3>
+
+<p>
+  h-index
+  &emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;
+  9
+  <br>
+  Citations
+  &emsp;&emsp;&emsp;&emsp; &emsp;&emsp;&emsp;&emsp;
+   361
+  <br>
+  Authored Documents
+  &emsp;&emsp;&emsp;
+  23
+</p>
+
+<h3> <br>Publications </h3>
+<ol id="my-list">
+
+<li>Averesch, N.J., Berliner, A.J., Nangle, S.N., Zezulka, S., Vengerova, G.L., Ho, D., Casale, C.A., Lehner, B.A., Snyder, J.E.J., Clark, K.B. and Dartnell, L.R., 2022. Biomanufacturing for Space-Exploration - What to Take and When to Make.
+<br>
+<a href="https://www.preprints.org/manuscript/202207.0329/v1" target="_blank">https://www.preprints.org/manuscript/202207.0329/v1</a>
+
+<li>Zajkowski T, Lee MD, Mondal SS, Carbajal A, Dec R, Brennock PD, Piast RW, Snyder JE, Bense NB, Dzwolak W, Jarosz DF. The hunt for ancient prions: archaeal prion-like domains form amyloid-based epigenetic elements. Molecular Biology and Evolution. 2021 May;38(5):2088-103.
+<br>
+<a href="https://doi.org/10.1093/molbev/msab010" target="_blank">https://doi.org/10.1093/molbev/msab010</a>
+
+<li>Lehner BA, Schlechten J, Filosa A, Pou AC, Mazzotta DG, Spina F, Teeney L, Snyder JE, Tjon SY, Meyer AS, Brouns SJ. End-to-end mission design for microbial ISRU activities as preparation for a moon village. Acta Astronautica. 2019 Sep 1;162:216-26.
+<br>
+<a href="https://doi.org/10.1016/j.actaastro.2019.06.001" target="_blank">https://doi.org/10.1016/j.actaastro.2019.06.001</a>
+
+<li>Snyder JE, Walsh D, Carr PA, Rothschild LJ. A makerspace for life support systems in space. Trends in biotechnology. 2019 Nov 1;37(11):1164-74.
+<br>
+<a href="https://doi.org/10.1016/j.tibtech.2019.05.003" target="_blank">https://doi.org/10.1016/j.tibtech.2019.05.003</a>
+
+<li>Liu Y, Hamid Q, Snyder JE, Wang C, Sun W. Evaluating fabrication feasibility and biomedical application potential of in situ 3D printing technology. Rapid Prototyping Journal. 2016 Oct 17.
+<br>
+<a href="https://doi.org/10.1108/RPJ-07-2015-0090" target="_blank">https://doi.org/10.1108/RPJ-07-2015-0090</a>
+
+<li>Snyder JE, Hamid Q, Sun W. Fabrication of microuidic manifold by precision extrusion deposition and replica molding for cell-laden device. Journal of Manufacturing Science and Engineering. 2016 Apr 1;138(4).
+<br>
+<a href="https://doi.org/10.1115/1.4031551" target="_blank">https://doi.org/10.1115/1.4031551</a>
+
+<li>Snyder JE, Son AR, Hamid Q, Wu H, Sun W. Hetero-cellular prototyping by synchronized multi-material bioprinting for rotary cell culture system. Biofabrication. 2015 Dec 29;8(1):015002.
+<br>
+<a href="https://doi.org/10.1088/1758-5090/8/1/015002" target="_blank">https://doi.org/10.1088/1758-5090/8/1/015002</a>
+
+<li>Snyder JE, Son AR, Hamid Q, Wang C, Lui Y, Sun W. Mesenchymal stem cell printing and process regulated cell properties. Biofabrication. 2015 Dec 22;7(4):044106.
+<br>
+<a href="https://doi.org/10.1088/1758-5090/7/4/044106" target="_blank">https://doi.org/10.1088/1758-5090/7/4/044106</a>
+
+<li>Wang C, Hamid Q, Snyder JE, Ayan H, Sun W. Localized surface functionalization of polycaprolactone with atmospheric-pressure microplasma jet. Biomedical Physics & Engineering Express. 2015 Jul 30;1(2):025002.
+<br>
+<a href="https://doi.org/10.1088/2057-1976/1/2/025002" target="_blank">https://doi.org/10.1088/2057-1976/1/2/025002</a>
+
+<li>Hamid Q, Wang C, Snyder JE, Williams S, Liu Y, Sun W. Maskless fabrication of cell-laden microuidic chips with localized surface functionalization for the co-culture of cancer cells. Biofabrication. 2015 Mar 2;7(1):015012.
+<br>
+<a href="https://doi.org/10.1088/1758-5090/7/1/015012" target="_blank">https://doi.org/10.1088/1758-5090/7/1/015012</a>
+
+<li>Hamid Q, Wang C, Zhao Y, Snyder JE, Sun W. Fabrication of biological microuidics using a digital microfabrication system. Journal of Manufacturing Science and Engineering. 2014 Dec 1;136(6).
+<br>
+<a href="https://doi.org/10.1115/1.4028419" target="_blank">https://doi.org/10.1115/1.4028419</a>
+
+<li>Snyder JE, Hunger PM, Wang C, Hamid Q, Wegst UG, Sun W. Combined multi-nozzle deposition and freeze casting process to superimpose two porous networks for hierarchical three-dimensional microenvironment. Biofabrication. 2014 Jan 15;6(1):015007.
+<br>
+<a href="https://doi.org/10.1115/ISFA2012-7105" target="_blank">https://doi.org/10.1115/ISFA2012-7105</a>
+
+<li>Hamid Q, Snyder JE, Wang C, Timmer M, Hammer J, Guceri S, Sun W. Fabrication of three-dimensional scaolds using precision extrusion deposition with an assisted cooling device.Biofabrication. 2011 Jul 5;3(3):034109.
+<br>
+<a href="https://doi.org/10.1088/1758-5082/3/3/034109" target="_blank">https://doi.org/10.1088/1758-5082/3/3/034109</a>
+
+<li>Snyder JE, Hamid Q, Wang C, Chang R, Emami K, Wu H, Sun W. Bioprinting cell-laden matrigel for radioprotection study of liver by pro-drug conversion in a dual-tissue microuidic chip. Biofabrication. 2011 Sep 1;3(3):034112.
+<br>
+<a href="https://doi.org/10.1088/1758-5082/3/3/034112" target="_blank">https://doi.org/10.1088/1758-5082/3/3/034112</a>
+
+</ol>
+
+<p>
+<br><br>
+Thank you for your visit.
+<br><br>
+</p>
+
+
+
+  </body>
+</html>
