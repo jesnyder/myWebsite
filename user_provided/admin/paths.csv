@@ -1,0 +1,4 @@
+name,path
+
+# admin referenced
+ref_variable,user_provided admin ref_variables.csv
