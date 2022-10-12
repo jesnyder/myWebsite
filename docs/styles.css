@@ -4,10 +4,11 @@ body {
   color: #656565;
   font: 16px helvetica, arial, verdana, sans-serif;
   }
-          h1   {color: black;}
-          p    {color: darkgray;}
 
-  * {
+h1   {color: black;}
+p    {color: #565656;}
+
+* {
 /* Here i made the margin and padding  0 */
 margin: 0;
 
@@ -82,7 +83,7 @@ background-size: cover;
     li {
       padding-left: 10px;
       margin-bottom: 10px;
-      color: gray;
+      color: darkgray;
       text-indent: 0em;
       margin-left: 2em;
     }
