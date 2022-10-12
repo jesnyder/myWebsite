@@ -22,7 +22,7 @@ display: flex;
 navbar stays at the top part even if we scroll */
 position: sticky;
 align-items: center;
-justify-content: center;
+justify-content: left;
 top: 5px;
 
 /*it specifies the mouse cursor to be displayed
@@ -31,7 +31,7 @@ cursor: pointer;
 }
 
 .nav-list {
-width: 50%;
+width: 90%;
 display: flex;
 }
 
@@ -52,7 +52,7 @@ color: yellow;
 }
 
 .rightNav {
-width: 40%;
+width: 30%;
 text-align: center;
 }
 
