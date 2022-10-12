@@ -17,5 +17,5 @@ web:  pythonanalysis
 	#git add .
 	#git commit -m "added content"
 	#git push
-	python3 -m http.server
+	python3 -m http.server --directory docs/
 	# python3 -mwebbrowser http://127.0.0.1:8000/report.pdf
