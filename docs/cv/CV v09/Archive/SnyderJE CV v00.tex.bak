@@ -1,0 +1,156 @@
+\documentclass[11pt]{article}
+
+\usepackage{color}
+\definecolor{linkcolor}{rgb}{0.15, 0.15, 0.3}
+\definecolor{demphasize}{rgb}{0.5, 0.5, 0.5}
+
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={150mm,270mm},
+ left=20mm,
+ top=20mm,}
+
+\usepackage{comment}
+\usepackage{graphicx}
+\usepackage{longtable}
+% \usepackage{tree-dvips}
+% \usepackage{hyperref}
+% \usepackage[none]{hyphenat}
+\usepackage{tabularx}
+
+
+\usepackage{comment}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{hyperref}
+\usepackage[none]{hyphenat}
+\usepackage{tabularx}
+\usepackage{ragged2e}
+
+
+
+
+\begin{document}
+
+\begin{center}
+jessica.e.snyder@gmail.com
+\hspace{10mm}
+\href{https://biology.work/}{\color{linkcolor}{https://biology.work/}} 
+\hspace{10mm} 
+%\href{https://scholar.google.com/citations?hl=en&user=9VuOwf0AAAAJ}{\color{helllo}} \\ 
+\vskip 0.1in
+{\LARGE Jessica E. Snyder, \color{demphasize}{PhD}}
+\end{center}
+
+\begin{flushleft}
+
+\begin{comment}
+Understanding the complex interaction between mechanical and biological systems is my passion. I've worked as an engineer and inventor in industrial design, supporting
+future space missions at NASA, as well as early-stage biotech startups.
+\end{comment}
+
+\textbf{\Large Work} 
+
+\begin{comment}
+\vskip 0.1in
+\textbf{(2020 - 2021) Bioprinting Appilcations Engineer, Frontier Bio, Inc. Oakland, CA}. 
+\textit{Commercialize biomanufacturing methods to make scarce items more accessible, including human tissue for regenerative medicine and research models.} 
+Prototyped tissue enigneering scaffolds made using a hybrid electrospinning and fusion deposiiton molding (FDM) 3D prinitng process. 
+\end{comment}
+\textbf{Universities Space Research Assoc} contracted to \textbf{NASA Ames Research Center} \\ 
+\textit{ \textbf{Scientist} }  (2017-2020)
+\textit{Biological industrial design to outfit human missions to space.} 
+Worked alongside evolutionary and synthetic biologists to reverse engineer life from extreme environments and then build biotechnology. Project included: Digitizing a sea sponge to 3D print a living filter, a portable device to make protein-based drugs, and field work in Antarctica's South Shetland Islands. 
+
+\vskip 0.1in
+\textbf{Massachusetts Institute of Technology, Senseable City Lab} \\
+\textit{ \textbf{Postdoctoral Fellow}} (2015-2017) 
+\textit{A \textit{somewhat} anonymized public health census using biology, data, and civic infrastructure.} 
+As part of the Underworlds team, I automated colection of wastewater to measure the bacteria, virus, and chemicals neighborhood by neighborhood. Our geolocated dataset became a heatmap of human health across the city. Instances of the technology were deployed in Boston and Kuwait. The project has become the company BioBot Analytics. \\
+
+\vskip 0.1in
+\textbf{Drexel University, Mechanical Engineering Department}\\
+\textit{ \textbf{Research Fellow / PhD Candidate} } (2009-2014) 
+\textit{Invent manufacturing process to build a model of human liver to study drug metabolism.} 
+Engineered a now patented process to 3D print multiple cell types  to mimic the anamitomical strucutre of hepatic tissue. With collaborator from NASA Johnson Space Center, tested the metaolism of the 3D printed model of liver in a space-like environment. \\
+
+
+
+\vskip 0.1in
+\textbf{ \Large Patented Inventions} \\
+
+\textbf{Heterogeneous filaments, methods of producing the same, scaffolds, methods of producing the same, droplets, and methods of producing the same.} Sun, Wei, Qudus Hamid, and Jessica Snyder. Publication Date 02-02-2017 
+\href{https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2017019300}{\color{linkcolor}{https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2017019300}} \\
+
+\vskip 0.1in
+
+\textbf{Compositions and Methods for Functionalized Patterning of Tissue Engineering Substrates Including Bioprinting Cell-Laden Constructs for Multicompartment Tissue Chambers.} Sun, Wei, Jessica Snyder, Robert Chang, Eda Yildirim, Alexander Fridman, and Halim Ayan.U.S. Patent Application 12 872,992, led June 9, 2011.    \href{https://www.freepatentsonline.com/y2011/0136162.html}{\color{linkcolor}{https://www.freepatentsonline.com/y2011/0136162.html}} \\
+
+\vskip 0.1in
+\textbf{ \Large Service} \\
+
+\textbf{Montefiore Health System, New York City} \\
+\textit { \textbf{Collaborator}} (2016 - present) 
+\textit{A clinical trial to measure emotion during painful procedures to test the effectiveness of virtual reality distractions.} The goal is to tailor-make immersive entertainment experiences that can replace opiates and guide patients towards calmer emotional states during hospitalization. 
+
+
+
+
+\begin{longtable}{ p{80mm} p{80mm} }
+{
+\textbf{Cell Culture Skills:}
+BSL2 technique, bioprinting, bioreactor (rotarty, microfluidic, oscillatory compression/relaxation)
+
+\textbf{Programming Skills:} Digital reconstruction of medical images (ImageJ), data analysis (Python, MatLab), computer aided design and manufacturing CAD/CAM (AutoCAD, Fusion360, SolidWorks, OpenSCAD)
+
+\textbf{Prototyping Skills:} 3D printing, laser cutting, soldering, replica molding (PDMS, gallium), electrospinning, coaxial extrusion, mechanical testing
+
+
+
+
+
+
+}
+
+&
+
+{
+\textbf{Education} 
+\newline
+2009 BS/MS Mech Eng, Drexel University 
+\newline
+2014 PhD Mech Eng, Drexel University 
+\newline
+2015-17 Postdoc Urban Planning, MIT
+
+
+\textbf{Adjunct Faculty} 
+\newline
+2019 Santa Clara University %College of Arts \& Sciences
+\newline
+2021 Cogswell University of Silicon Valley % College of Arts  Science 
+
+\textbf{Miscellaneous} 
+
+Blue Marble Space Institute of Science, Affiliate  
+
+HISEAS, Analog Astronaut (Selene I)
+%Hawaii Space Exploration Analog and Simulation (HI-SEAS), Analog Astronaut % - Manufacturing Speacialist for Selene I Mission(2020) 
+
+World Health Summit, New Voices 2016
+
+}
+
+
+
+
+
+\end{longtable}
+
+
+
+
+\end{flushleft}
+
+\end{document}
